@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('http://www.stunningalways.com/wp-content/uploads/2015/12/Friends-together-withtitle-friends.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
@@ -70,27 +73,32 @@ code {
 .form {
   border: 1px solid black;
   margin-left: 30px;
-  height: 300px;
-  width: 202px;
+  height: 530px;
+  width: 350px;
   border-radius: 5px;
+  background-color: #C9FBF9;
 }
 
 .form-title {
   text-align: center;
   font-family: 'Luckiest Guy', cursive;
   border-bottom: 1px solid lightgrey;
-  background-color: #FF0000;
-  color: white;
+  background-color: #A452BC;
+  color: #5FE139;
   text-shadow: 2px 2px black;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 30px;
 }
 
 .form input {
-  height: 30px;
-  width: 196px;
+  height: 45px;
+  width: 346px;
   font-family: 'Luckiest Guy', cursive;
-  border: 1px solid white;
   font-size: 15px;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  background-color: #B3B7CE;
 }
 
 .form button {
@@ -102,6 +110,9 @@ code {
   cursor: pointer;
   color: white;
   text-shadow: 2px 2px black;
+  border-radius: 5px;
+  margin-left: 75px;
+  border: 2px solid black;
 }
 
 .update {
