@@ -6,7 +6,7 @@ export const FriendList = (props) => {
     return (
         <div>
           {props.friends.map((friend, id) => {
-              return <Friend key={id} updateFriends={props.updateFriends} deleteFriends=
+              return <Friend key={id} deleteFriends=
               {props.deleteFriends} {...friend} />
           })}
         </div>
@@ -14,7 +14,7 @@ export const FriendList = (props) => {
 }
 
 
-const Friend = ({updateFriends , deleteFriends , id , name , age , email}) => {
+const Friend = ({ deleteFriends , id , name , age , email}) => {
 
     return(
     <div className='friendlist'>
@@ -24,7 +24,6 @@ const Friend = ({updateFriends , deleteFriends , id , name , age , email}) => {
         <p>EMAIL : {email}</p>
         {/* {id}------{name}------{age}------{email} */}
         <div className='buttons'>
-        <button onClick={updateFriends} id={id} className='update'>Update</button>
         <button onClick={deleteFriends} id={id} className='delete'>Delete</button>
         </div>
     </div>

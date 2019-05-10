@@ -48,21 +48,21 @@ class App extends Component {
     .catch(err => console.log(err));
   }
 
-  updateFriends = e => {
-    const friends = {
-      id: this.state.id,
-      name: this.state.name,
-      age: this.state.age,
-      email: this.state.email
-}
+//   updateFriends = e => {
+//     const friends = {
+//       id: this.state.id,
+//       name: this.state.name,
+//       age: this.state.age,
+//       email: this.state.email
+// }
 
-  axios
-    .put(`http://localhost:5000/friends/`, friends)
-    .then(res => 
-    this.setState({friends: res.data}))
-    .catch(err => console.log(err));
+//   axios
+//     .put(`http://localhost:5000/friends/`, friends)
+//     .then(res => 
+//     this.setState({friends: res.data}))
+//     .catch(err => console.log(err));
 
-  }
+//   }
 
   deleteFriends = e => {
     axios

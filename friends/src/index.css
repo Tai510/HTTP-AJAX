@@ -111,7 +111,7 @@ code {
   color: white;
   text-shadow: 2px 2px black;
   border-radius: 5px;
-  margin-left: 75px;
+  margin-left: 80px;
   border: 2px solid black;
 }
 
@@ -135,5 +135,6 @@ code {
   color: white; 
   text-shadow: 2px 2px black;
   cursor: pointer;
+  margin-left: 55px;
 }
 
