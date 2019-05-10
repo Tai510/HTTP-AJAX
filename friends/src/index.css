@@ -73,7 +73,7 @@ code {
 .form {
   border: 1px solid black;
   margin-left: 30px;
-  height: 530px;
+  height: 520px;
   width: 350px;
   border-radius: 5px;
   background-color: #C9FBF9;
@@ -115,6 +115,11 @@ code {
   border: 2px solid black;
 }
 
+.form button:hover {
+  background-color: #5FE139;
+  color: white;
+}
+
 .update {
   background-color: #667092;
   color: white;
@@ -123,7 +128,7 @@ code {
 }
 
 .update:hover {
-   background-color: green;
+   background-color: #5FE139;
 }
 
 .delete:hover {
@@ -131,10 +136,15 @@ code {
 }
 
 .delete {
-  background-color: #667092;
+  background-color: #5FE139;
   color: white; 
   text-shadow: 2px 2px black;
   cursor: pointer;
   margin-left: 55px;
 }
 
+/* .clip {
+  font-size: 70px;
+  border: 1px solid black;
+  margin-left: 10px;
+} */
