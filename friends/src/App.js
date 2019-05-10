@@ -78,8 +78,9 @@ class App extends Component {
           <h1 className='friendlist-title'>Friends List</h1>
         </div>
         <div className='display'>
-        <FriendList {...this.state}/>
-        <NewForm deleteFriends={this.deleteFriends} updateFriends={this.updateFriends} addNewFriend={this.addNewFriend} changeHandler={this.changeHandler} {...this.state} />
+        <FriendList deleteFriends={this.deleteFriends} updateFriends={this.updateFriends} {...this.state}/>
+        <NewForm addNewFriend={this.addNewFriend} changeHandler={this.changeHandler} {...this.state} />
+        
         </div>
       </div>
     )
