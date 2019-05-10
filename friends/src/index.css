@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('http://www.stunningalways.com/wp-content/uploads/2015/12/Friends-together-withtitle-friends.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.friendlist {
+  /* text-align: center; */
+  border: 1px solid black;
+  width: 300px;
+  margin-left: 570px;
+  margin-bottom: 50px;
+  padding: 10px 0px;
+  border-radius: 5px;
+  background-color: #6F97BB;
+  color: white;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 2px 2px black;
+  padding-left: 30px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  border: 1px solid black;
+  width: 300px;
+  margin-left: 585px;
+  background-color: #6F97BB;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.update {
+  border-radius: 5px;
+  font-family: 'Luckiest Guy', cursive;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.delete {
+  border-radius: 5px;
+  font-family: 'Luckiest Guy', cursive;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.buttons {
+  margin-left: 30px;
+}
+
+.display {
+  display: flex;
+}
+
+.form {
+  border: 1px solid black;
+  margin-left: 30px;
+  height: 520px;
+  width: 350px;
+  border-radius: 5px;
+  background-color: #C9FBF9;
+}
+
+.form-title {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  border-bottom: 1px solid lightgrey;
+  background-color: #A452BC;
+  color: #5FE139;
+  text-shadow: 2px 2px black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+.form input {
+  height: 45px;
+  width: 346px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 15px;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  background-color: #B3B7CE;
+}
+
+.form button {
+  height: 60px;
+  font-size: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  width: 202px;
+  background-color: #FF0000;
+  cursor: pointer;
+  color: white;
+  text-shadow: 2px 2px black;
+  border-radius: 5px;
+  margin-left: 80px;
+  border: 2px solid black;
+}
+
+.form button:hover {
+  background-color: #5FE139;
+  color: white;
+}
+
+.update {
+  background-color: #667092;
+  color: white;
+  text-shadow: 2px 2px black;
+  cursor: pointer;
+}
+
+.update:hover {
+   background-color: #5FE139;
+}
+
+.delete:hover {
+  background-color: #FF0000;
+}
+
+.delete {
+  background-color: #5FE139;
+  color: white; 
+  text-shadow: 2px 2px black;
+  cursor: pointer;
+  margin-left: 55px;
+}
+
+/* .clip {
+  font-size: 70px;
+  border: 1px solid black;
+  margin-left: 10px;
+} */
